@@ -21,10 +21,10 @@
 		0480F570187DF8BC009998DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0480F552187DF8BB009998DC /* UIKit.framework */; };
 		0480F578187DF8BC009998DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0480F576187DF8BC009998DC /* InfoPlist.strings */; };
 		0480F57A187DF8BC009998DC /* ImageSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480F579187DF8BC009998DC /* ImageSliderTests.m */; };
-		0480F589187DFF37009998DC /* yuna1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0480F585187DFF37009998DC /* yuna1.jpeg */; };
-		0480F58A187DFF37009998DC /* yuna2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0480F586187DFF37009998DC /* yuna2.jpeg */; };
-		0480F58B187DFF37009998DC /* yuna3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0480F587187DFF37009998DC /* yuna3.jpeg */; };
-		0480F58C187DFF37009998DC /* yuna4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0480F588187DFF37009998DC /* yuna4.jpeg */; };
+		04CE52741885646300F4A2D5 /* yuna1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CE52701885646300F4A2D5 /* yuna1.jpg */; };
+		04CE52751885646300F4A2D5 /* yuna2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CE52711885646300F4A2D5 /* yuna2.jpg */; };
+		04CE52761885646300F4A2D5 /* yuna3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CE52721885646300F4A2D5 /* yuna3.jpg */; };
+		04CE52771885646300F4A2D5 /* yuna4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CE52731885646300F4A2D5 /* yuna4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 		0480F575187DF8BC009998DC /* ImageSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSliderTests-Info.plist"; sourceTree = "<group>"; };
 		0480F577187DF8BC009998DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0480F579187DF8BC009998DC /* ImageSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSliderTests.m; sourceTree = "<group>"; };
-		0480F585187DFF37009998DC /* yuna1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna1.jpeg; sourceTree = "<group>"; };
-		0480F586187DFF37009998DC /* yuna2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna2.jpeg; sourceTree = "<group>"; };
-		0480F587187DFF37009998DC /* yuna3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna3.jpeg; sourceTree = "<group>"; };
-		0480F588187DFF37009998DC /* yuna4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna4.jpeg; sourceTree = "<group>"; };
+		04CE52701885646300F4A2D5 /* yuna1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna1.jpg; sourceTree = "<group>"; };
+		04CE52711885646300F4A2D5 /* yuna2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna2.jpg; sourceTree = "<group>"; };
+		04CE52721885646300F4A2D5 /* yuna3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna3.jpg; sourceTree = "<group>"; };
+		04CE52731885646300F4A2D5 /* yuna4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuna4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		0480F542187DF8BB009998DC = {
 			isa = PBXGroup;
 			children = (
-				0480F584187DFF2B009998DC /* Res */,
+				0480F584187DFF2B009998DC /* res */,
 				0480F554187DF8BB009998DC /* ImageSlider */,
 				0480F573187DF8BC009998DC /* ImageSliderTests */,
 				0480F54D187DF8BB009998DC /* Frameworks */,
@@ -161,15 +161,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0480F584187DFF2B009998DC /* Res */ = {
+		0480F584187DFF2B009998DC /* res */ = {
 			isa = PBXGroup;
 			children = (
-				0480F585187DFF37009998DC /* yuna1.jpeg */,
-				0480F586187DFF37009998DC /* yuna2.jpeg */,
-				0480F587187DFF37009998DC /* yuna3.jpeg */,
-				0480F588187DFF37009998DC /* yuna4.jpeg */,
+				04CE52701885646300F4A2D5 /* yuna1.jpg */,
+				04CE52711885646300F4A2D5 /* yuna2.jpg */,
+				04CE52721885646300F4A2D5 /* yuna3.jpg */,
+				04CE52731885646300F4A2D5 /* yuna4.jpg */,
 			);
-			name = Res;
+			name = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,13 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0480F58A187DFF37009998DC /* yuna2.jpeg in Resources */,
-				0480F589187DFF37009998DC /* yuna1.jpeg in Resources */,
+				04CE52761885646300F4A2D5 /* yuna3.jpg in Resources */,
+				04CE52751885646300F4A2D5 /* yuna2.jpg in Resources */,
 				0480F567187DF8BC009998DC /* Images.xcassets in Resources */,
 				0480F559187DF8BB009998DC /* InfoPlist.strings in Resources */,
-				0480F58C187DFF37009998DC /* yuna4.jpeg in Resources */,
-				0480F58B187DFF37009998DC /* yuna3.jpeg in Resources */,
+				04CE52741885646300F4A2D5 /* yuna1.jpg in Resources */,
 				0480F562187DF8BC009998DC /* Main.storyboard in Resources */,
+				04CE52771885646300F4A2D5 /* yuna4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +484,7 @@
 				0480F57F187DF8BC009998DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0480F580187DF8BC009998DC /* Build configuration list for PBXNativeTarget "ImageSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				0480F582187DF8BC009998DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

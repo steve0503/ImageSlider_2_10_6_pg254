@@ -33,7 +33,7 @@
     
     NSString *fileName = [NSString stringWithFormat:@"yuna%d",pageNo+1];
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"jpeg"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"jpg"];
     
     UIImage *image = [UIImage imageWithContentsOfFile:filePath];
     
